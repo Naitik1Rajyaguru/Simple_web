@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soptify_home</title>
+
+    <link rel="stylesheet" href="Style/Basic.css">
+    
+    <!-- fonts -->
+    <!-- <style>
+        
+    </style> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet"> -->
+
+</head>
+<body>
+    <nav class="navigation">
+        <ul>
+            <li class="logo"><img src="logo.jpg" alt="this is logo"></li>
+            <li class="Home">Home</li>
+            <li class="account">profile</li>
+        </ul>
+    </nav>
+
+    <div class="mainpart"> 
+        
+        <h1>Playlist Name</h1>
+        <div class="listofsongs">
+            <div class="currentsongitems">
+                <img src="currentsong.jpg" alt="1" class="currentsongimg">
+                <span class="currentsongname">Duaa</span>
+                <span class="currentsongtime">4:32 <i class="fas playButton fa-play" id="0"></i></span>
+            </div>
+
+            <div class="currentsongitems">
+                <img src="currentsong.jpg" alt="1" class="currentsongimg">
+                <span class="currentsongname">Shyad</span>
+                <span class="currentsongtime">5:30 <i class="fas playButton fa-play" id="1"></i></span>
+            </div>
+
+            <div class="currentsongitems">
+                <img src="currentsong.jpg" alt="1" class="currentsongimg">
+                <span class="currentsongname">Alone</span>
+                <span class="currentsongtime">4.32 <i class="fas playButton fa-play" id="2"></i></span>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="current">
+        <span class="songname"> <img src="playing.gif" alt="" id="gif"> <span class="currentPlayingName">Duaa</span>  </span>
+        <input type="range" class="progressofsong" value="0" id="Progress">
+        <div class="icons">
+            
+            <i class="fas fa-backward" id="prevSong"></i>
+            <i class="fas fa-play" id="mainPlay"></i>
+            <i class="fas fa-forward" id="nextSong"></i>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/ca1dc034c4.js" crossorigin="anonymous"></script>
+    <script src="Script/Basic.js"></script>
+</body>
+</html>

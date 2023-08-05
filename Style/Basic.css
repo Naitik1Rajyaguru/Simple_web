@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body{
+    background-color: rgb(113, 131, 149);
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation{
+    font-family: 'Silkscreen', cursive;
+    color: white;
+    position: fixed;
+}
+
+nav ul li.logo img{
+    height: 60px;
+    width: 85px;
+    margin-right: 1200px;
+    
+    
+}
+
+nav{
+    /* background-color: black; */
+    /* width: 20px; */
+    height: 60px;
+    align-content: center;
+    /* width: fit-content; */
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0px;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.current .progressofsong{
+    height: 9px;
+    width: 80%;
+    padding: 9px;
+}
+.icons i{
+    padding: 4px;
+    cursor: pointer;
+}
+.current{
+    height: 120px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.mainpart{
+
+    
+    min-height: 60vh;
+    justify-items: center;
+    margin: 24px 189px;
+    padding: 20px;
+
+    margin-left: 13%;
+
+}
+
+.current .songname{
+    /* left: 0; */
+    margin-right: 70%;
+    /* padding: 9px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.current .songname img{
+    height: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    margin-right: 20px;
+}
+
+
+.currentsongitems{
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+    
+    width: fit-content;
+    justify-content: space-around;
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0 20px;
+}
+
+.currentsongtime i{
+    cursor: pointer;
+}
+
+.currentsongitems img{
+    width: 49px;
+    height: 30px;
+    margin: 8px 0;
+    margin-right: 10px;
+}
+
+.currentsongitems .currentsongname{
+    margin-right: 10px;
+}
+
+
+.listofsongs{
+    margin-top: 50px;
+    /* padding: 20px; */
+    align-items: center;
+}
+
+
+
+
+
+
+/* element.style */
