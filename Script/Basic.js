@@ -18,6 +18,16 @@ let songs=[
     {songName: "Duaa", filepath: "Song/Duaa - Arijit Singh.mp3"},
     {songName: "Duaa", filepath: "Song/Shayad - Love Aaj Kal.mp3"},
     {songName: "Alone", filepath: "Song/Alone---Alan-Walker.mp3"},
+    {songName: "choo lo", filepath: "Song/Choo Lo.mp3"},
+    {songName: "choo lo", filepath: "Song/Tere Hawaale.mp3"},
+    {songName: "choo lo", filepath: "Song/Pehle Bhi Main Animal.mp3"},
+    {songName: "choo lo", filepath: "Song/Let-Her-Go-X-Husn.mp3"},
+    {songName: "choo lo", filepath: "Song/Husn.mp3"},
+    {songName: "choo lo", filepath: "Song/Jaane-De.mp3"},
+    {songName: "choo lo", filepath: "Song/Dil Ibaadat.mp3"},
+    {songName: "choo lo", filepath: "Song/Aadat Kalyug.mp3"},
+    {songName: "choo lo", filepath: "Song/Let Her Go.mp3"},
+
 ]
 
 const makeAllPlay = ()=>{
